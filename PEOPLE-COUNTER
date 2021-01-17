@@ -11,7 +11,7 @@ imshown = 0;
 %% Checking the latest  total number of faces
 [initialNum,latestDate] = thingSpeakRead( 616958,'ReadKey','BTE65P6UB03QFBIX');
 if dateshift(latestDate,'start','day') < datetime('today','TimeZone','local')
-    logThingSpeakData('reset')
+    iot2('reset')
 end
 
 %% Initializing objects 
