@@ -1,4 +1,4 @@
-% This function will be  used by iot1.m to write data onto a
+% This function will be  used by iot1.m which is there in People Recognition folder to write data onto a
 % ThingSpeak channel. 
 function iot2(tracker)
 
